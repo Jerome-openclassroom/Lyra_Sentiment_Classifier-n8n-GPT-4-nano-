@@ -84,10 +84,9 @@ To import the workflow into your own instance of n8n:
 3. Configure your **Google Sheets** and **OpenAI credentials**.
 4. Add your GPT Assistant with the provided prompt.
 
+## 💾 Folder Structure
 
-# Repository Structure
-'
-
+```
 /Sentiment_Analysis/                                # Root folder of the project
 ├── /screenshot/                                    # Contains illustrative images for documentation
 │   └── Workflow.png                                # Visual representation of the n8n workflow
@@ -95,6 +94,6 @@ To import the workflow into your own instance of n8n:
 │   ├── JS Parsing.txt                              # JavaScript snippet for parsing GPT output
 │   └── Sentiment_Analysis_workflow.json            # Full exported n8n workflow in JSON format
 └── README.md                                       # Main documentation file (Markdown)
-'
+```
 
 © 2025 – Project by Jérôme (Lyra)
