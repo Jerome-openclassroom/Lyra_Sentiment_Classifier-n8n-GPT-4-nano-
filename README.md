@@ -41,7 +41,27 @@ Return only a JSON object with the following structure:
 
 Do not add any commentary, explanation, or text outside the JSON object.
 ```
+## 📊 Post-processing with GPT Agent
 
+After classifying and storing comments into three sentiment categories (Positive, Negative, Neutral), we used a GPT Agent to analyze the outputs and generate summary statistics and a visualization.
+
+### 🤖 Agent Prompt
+
+```text
+You are an AI agent analyzing three Google Sheets labeled “Positive”, “Neutral”, and “Negative”.
+Each contains a list of comments classified by sentiment (excluding the header row).
+Your task: count the number of entries in each sheet, compute the percentages, and return a readable summary.
+📈 Result
+Positive: 6 items → 40%
+Negative: 6 items → 40%
+Neutral: 3 items → 20%
+
+Total: 15 comments
+Sentiment is evenly split between Positive and Negative, with fewer Neutral entries.
+
+🥧 Visualization
+
+This final step demonstrates how GPT Agents can autonomously interpret structured outputs, compute statistics, and provide insights in natural language — making the pipeline fully intelligent and actionable.
 ## 🧪 Usage Notes
 
 - Works best for up to 20–50 texts per run.
