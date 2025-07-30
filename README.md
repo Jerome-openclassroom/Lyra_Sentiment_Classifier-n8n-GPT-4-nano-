@@ -2,6 +2,8 @@
 
 This project demonstrates a fast and modular sentiment analysis workflow using **n8n**, integrated with **GPT-4.1 nano** via OpenAI Assistant, and routing results to separate **Google Sheets** based on sentiment category.
 
+### 🛠 Workflow Structure
+
 ## 🌐 Overview
 
 - 🔁 Loops over multiple short texts from a Google Sheet
@@ -11,18 +13,8 @@ This project demonstrates a fast and modular sentiment analysis workflow using *
 - ⏱️ Includes a `Wait` node (500 ms) to regulate API call frequency
 - 📄 Appends results to the corresponding sentiment-specific Google Sheet
 
-## 🛠 Workflow Structure
 
-```
-/Sentiment_Analysis/                                # Root folder of the project
-├── /screenshot/                                    # Contains illustrative images for documentation
-│   └── Workflow.png                                # Visual representation of the n8n workflow
-├── /code/                                          # Source code and configuration files
-│   ├── JS Parsing.txt                              # JavaScript snippet for parsing GPT output
-│   └── Sentiment_Analysis_workflow.json            # Full exported n8n workflow in JSON format
-└── README.md                                       # Main documentation file (Markdown)
 
-```
 
 ## 🔁 Parsing Logic (JS node)
 
