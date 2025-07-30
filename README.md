@@ -62,6 +62,20 @@ Sentiment is evenly split between Positive and Negative, with fewer Neutral entr
 🥧 Visualization
 
 This final step demonstrates how GPT Agents can autonomously interpret structured outputs, compute statistics, and provide insights in natural language — making the pipeline fully intelligent and actionable.
+
+```
+📈 Result
+Positive: 6 items → 40%
+Negative: 6 items → 40%
+Neutral: 3 items → 20%
+
+Total: 15 comments
+Sentiment is evenly split between Positive and Negative, with fewer Neutral entries.
+
+🥧 Visualization
+
+This final step demonstrates how GPT Agents can autonomously interpret structured outputs, compute statistics, and provide insights in natural language — making the pipeline fully intelligent and actionable.
+
 ## 🧪 Usage Notes
 
 - Works best for up to 20–50 texts per run.
