@@ -7,13 +7,13 @@ This project demonstrates a fast and modular sentiment analysis workflow using *
 ## 🌐 Overview
 
 - 🔁 Loops over multiple short texts from a Google Sheet
-- 🧠 Sends each text to a custom GPT assistant (model 4.1 nano) for sentiment analysis
+- 🧠 Sends each text to a custom GPT assistant (model 4.1 nano*) for sentiment analysis
 - ⚖️ Parses the output JSON (`{ "sentiment": "Positive" }`)
 - 🧭 Routes to one of three categories: **Positive**, **Negative**, **Neutral**
 - ⏱️ Includes a `Wait` node (500 ms) to regulate API call frequency
 - 📄 Appends results to the corresponding sentiment-specific Google Sheet
 
-      ## ⚠️ Why Hugging Face node was not used
+    *  ## ⚠️ Why Hugging Face node was not used
 
       The initial plan was to use the built-in `Sentiment Analysis` node in n8n connected to a Hugging Face model (e.g. `distilbert-base-uncased-finetuned-sst-2-english` or `GPT2`).
 
