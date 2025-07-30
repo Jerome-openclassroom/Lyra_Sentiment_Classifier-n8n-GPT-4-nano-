@@ -14,13 +14,14 @@ This project demonstrates a fast and modular sentiment analysis workflow using *
 ## 🛠 Workflow Structure
 
 ```
-/Sentiment_Analysis/
-├── /screenshot/
-│   └── Workflow.png
-├── /code/
-│   ├── JS Parsing.txt
-│   └── Sentiment_Analysis_workflow.json
-└── README.md
+/Sentiment_Analysis/                                # Root folder of the project
+├── /screenshot/                                    # Contains illustrative images for documentation
+│   └── Workflow.png                                # Visual representation of the n8n workflow
+├── /code/                                          # Source code and configuration files
+│   ├── JS Parsing.txt                              # JavaScript snippet for parsing GPT output
+│   └── Sentiment_Analysis_workflow.json            # Full exported n8n workflow in JSON format
+└── README.md                                       # Main documentation file (Markdown)
+
 ```
 
 ## 🔁 Parsing Logic (JS node)
