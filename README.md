@@ -52,6 +52,7 @@ Negative: 6 items → 40%
 Neutral: 3 items → 20%
 
 Total: 15 comments
+
 Sentiment is evenly split between Positive and Negative, with fewer Neutral entries.
 
 
