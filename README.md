@@ -54,7 +54,11 @@ Neutral: 3 items → 20%
 Total: 15 comments
 Sentiment is evenly split between Positive and Negative, with fewer Neutral entries.
 
+
 🥧 Visualization
+
+![Sentiment Pie Chart](screenshot/pie_chart.png)
+
 
 This final step demonstrates how GPT Agents can autonomously interpret structured outputs, compute statistics, and provide insights in natural language — making the pipeline fully intelligent and actionable.
 
