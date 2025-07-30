@@ -34,6 +34,18 @@ Return only a JSON object with the following structure:
 
 Do not add any commentary, explanation, or text outside the JSON object.
 ```
+
+## 💬 Sample Inputs
+
+The following are some of the example comments used as inputs for the sentiment analysis workflow:
+
+- `"This book is garbage"` → **Negative**
+- `"This book is wonderful"` → **Positive**
+- `"This book is a 200-page book"` → **Neutral**
+- `"Not the worst book I've read, but still disappointing"` → **Negative**
+
+These samples were processed by the GPT 4.1 nano model and correctly classified by the system.
+
 ## 📊 Post-processing with GPT Agent
 
 After classifying and storing comments into three sentiment categories (Positive, Negative, Neutral), we used a GPT Agent to analyze the outputs and generate summary statistics and a visualization.
