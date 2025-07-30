@@ -2,7 +2,7 @@
 
 This project demonstrates a fast and modular sentiment analysis workflow using **n8n**, integrated with **GPT-4.1 nano** via OpenAI Assistant, and routing results to separate **Google Sheets** based on sentiment category.
 
-### 🛠 Workflow Structure
+# 🛠 Workflow Structure
 
 ## 🌐 Overview
 
