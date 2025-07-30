@@ -7,7 +7,7 @@ This project demonstrates a fast and modular sentiment analysis workflow using *
 ## 🌐 Overview
 
 - 🔁 Loops over multiple short texts from a Google Sheet
-- 🧠 Sends each text to a custom GPT assistant (model 4.1 nano*) for sentiment analysis
+- 🧠 Sends each text to a custom GPT assistant (model 4.1 nano) for sentiment analysis
 - ⚖️ Parses the output JSON (`{ "sentiment": "Positive" }`)
 - 🧭 Routes to one of three categories: **Positive**, **Negative**, **Neutral**
 - ⏱️ Includes a `Wait` node (500 ms) to regulate API call frequency
