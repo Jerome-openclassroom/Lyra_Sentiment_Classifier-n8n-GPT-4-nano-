@@ -13,6 +13,18 @@ This project demonstrates a fast and modular sentiment analysis workflow using *
 - ⏱️ Includes a `Wait` node (500 ms) to regulate API call frequency
 - 📄 Appends results to the corresponding sentiment-specific Google Sheet
 
+      ## ⚠️ Why Hugging Face node was not used
+
+      The initial plan was to use the built-in `Sentiment Analysis` node in n8n connected to a Hugging Face model (e.g. `distilbert-base-uncased-finetuned-sst-2-english` or `GPT2`).
+
+      However, after multiple tests, it consistently returned errors such as:
+
+      - `LLM Parsing Error`
+      - Output format inconsistencies (not JSON-compatible)
+      - Longer response times and instability
+
+      As a result, we opted for a more reliable alternative using a custom GPT 4.1 nano assistant with a dedicated system prompt and manual JSON parsing.  
+      This approach proved to be faster, more predictable, and better suited for structured automation.
 
 
 
