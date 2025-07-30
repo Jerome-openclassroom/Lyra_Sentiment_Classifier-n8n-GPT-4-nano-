@@ -1,0 +1,2 @@
+const parsed = JSON.parse($json.output);
+return { sentiment: parsed.sentiment };
